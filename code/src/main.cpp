@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 void setup() {
-  // O seu código de inicialização vai aqui, para ser executado uma vez:
+  //teste
 }
 
 void loop() {
