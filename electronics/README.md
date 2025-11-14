@@ -19,3 +19,13 @@ Este diretório deve conter todos os arquivos relacionados ao projeto eletrônic
 ## Documentação
 
 Neste README deve conter as instruções de uso, pinos utilizados e explicação do circuito.
+
+
+## Histórico
+
+Primeira modificação: Adição do "Mini_sumô.jpg" sendo um esquema primitivo da eletrônica do mini sumô usando o Proteus. Devido o fato que não consegui (autor) instalar a biblioteca ESP32 no proteus, utilizei o chip de um arduino nano
+
+Segunda modificação: Adição do esquema "cirkit-scheme-mini-sumo.png" sendo um esquema real da eletrônica do mini sumô usando o Cirkit
+
+## Descrição do esquema
+
