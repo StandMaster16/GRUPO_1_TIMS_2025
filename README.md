@@ -1,4 +1,4 @@
-# *(categoria do robô)*
+# *Mini sumô - Sr. Batata*
 
 Este é um template para organização de projetos de robôs *(categoria do robô)*. Use este template como base para organizar seu projeto. Modifique os README para atender aos requisitos.
 
