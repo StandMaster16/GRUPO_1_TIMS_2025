@@ -1,37 +1,27 @@
+Este diretório é destinado aos arquivos de cabeçalho do projeto (*header files*).
 
-This directory is intended for project header files.
+Um arquivo de cabeçalho é um arquivo que contém declarações C e definições de macro a serem compartilhadas entre vários arquivos de código-fonte do projeto. Você solicita o uso de um arquivo de cabeçalho em seu arquivo de código-fonte do projeto (C, C++, etc) localizado na pasta `src`, incluindo-o com a diretiva de pré-processamento C `#include`.
 
-A header file is a file containing C declarations and macro definitions
-to be shared between several project source files. You request the use of a
-header file in your project source file (C, C++, etc) located in `src` folder
-by including it, with the C preprocessing directive `#include'.
-
-```src/main.c
+```c
+// src/main.c
 
 #include "header.h"
 
 int main (void)
 {
- ...
+  ...
 }
 ```
 
-Including a header file produces the same results as copying the header file
-into each source file that needs it. Such copying would be time-consuming
-and error-prone. With a header file, the related declarations appear
-in only one place. If they need to be changed, they can be changed in one
-place, and programs that include the header file will automatically use the
-new version when next recompiled. The header file eliminates the labor of
-finding and changing all the copies as well as the risk that a failure to
-find one copy will result in inconsistencies within a program.
+Incluir um arquivo de cabeçalho produz os mesmos resultados que copiar o arquivo de cabeçalho em cada arquivo de código-fonte que precisa dele. Essa cópia seria demorada e propensa a erros. Com um arquivo de cabeçalho, as declarações relacionadas aparecem em um só lugar. Se precisarem ser alteradas, podem ser alteradas em um único local, e os programas que incluem o arquivo de cabeçalho usarão automaticamente a nova versão na próxima vez que forem recompilados. O arquivo de cabeçalho elimina o trabalho de encontrar e alterar todas as cópias, bem como o risco de uma falha em encontrar uma cópia resultar em inconsistências dentro de um programa.
 
-In C, the convention is to give header files names that end with `.h'.
+Em C, a convenção é dar aos arquivos de cabeçalho nomes que terminam com `.h`.
 
-Read more about using header files in official GCC documentation:
+Leia mais sobre o uso de arquivos de cabeçalho na documentação oficial do GCC:
 
-* Include Syntax
-* Include Operation
-* Once-Only Headers
-* Computed Includes
+  * Sintaxe de Inclusão
+  * Operação de Inclusão
+  * Cabeçalhos de Inclusão Única
+  * Inclusões Computadas
 
-https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html
+[https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html](https://gcc.gnu.org/onlinedocs/cpp/Header-Files.html)

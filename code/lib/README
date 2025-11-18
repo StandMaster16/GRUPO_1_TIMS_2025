@@ -1,12 +1,12 @@
+Este diretório destina-se a bibliotecas específicas (privadas) do projeto.
+O **PlatformIO** as compilará em bibliotecas estáticas e as vinculará ao arquivo executável.
 
-This directory is intended for project specific (private) libraries.
-PlatformIO will compile them to static libraries and link into the executable file.
+O código-fonte de cada biblioteca deve ser colocado em um diretório separado
+(`lib/nome_da_sua_biblioteca/[Código]`).
 
-The source code of each library should be placed in a separate directory
-("lib/your_library_name/[Code]").
+Por exemplo, veja a estrutura das seguintes bibliotecas de exemplo `Foo` e `Bar`:
 
-For example, see the structure of the following example libraries `Foo` and `Bar`:
-
+```
 |--lib
 |  |
 |  |--Bar
@@ -15,20 +15,22 @@ For example, see the structure of the following example libraries `Foo` and `Bar
 |  |  |--src
 |  |     |- Bar.c
 |  |     |- Bar.h
-|  |  |- library.json (optional. for custom build options, etc) https://docs.platformio.org/page/librarymanager/config.html
+|  |  |- library.json (opcional. para opções de compilação personalizadas, etc) https://docs.platformio.org/page/librarymanager/config.html
 |  |
 |  |--Foo
 |  |  |- Foo.c
 |  |  |- Foo.h
 |  |
-|  |- README --> THIS FILE
+|  |- README --> ESTE ARQUIVO
 |
 |- platformio.ini
 |--src
    |- main.c
-
-Example contents of `src/main.c` using Foo and Bar:
 ```
+
+Exemplo de conteúdo de `src/main.c` usando Foo e Bar:
+
+```c
 #include <Foo.h>
 #include <Bar.h>
 
@@ -36,11 +38,10 @@ int main (void)
 {
   ...
 }
-
 ```
 
-The PlatformIO Library Dependency Finder will find automatically dependent
-libraries by scanning project source files.
+O Localizador de Dependências de Biblioteca (LDF) do **PlatformIO** encontrará automaticamente as bibliotecas dependentes, analisando os arquivos de código-fonte do projeto.
 
-More information about PlatformIO Library Dependency Finder
-- https://docs.platformio.org/page/librarymanager/ldf.html
+Mais informações sobre o Localizador de Dependências de Biblioteca do **PlatformIO**:
+
+  - [https://docs.platformio.org/page/librarymanager/ldf.html](https://docs.platformio.org/page/librarymanager/ldf.html)
