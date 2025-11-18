@@ -4,7 +4,7 @@ Este diretório tem como objetivo documentar o projeto do código do robô do se
 O código implementado pode ser visto em: [`code`](../code).
 ## **Introdução**
 
-O projeto se trata de um robô *(categoria do robô)* de alto desempenho utilizado para a competição *(nome da competição)*.
+O projeto se trata de um robô minisumô de alto desempenho utilizado para o torneio interno do GEAR
 
 <!-- *Imagem/ do robô* -->
 <!-- ![Nome do robô](img/nome_do_arquivo_de_imagem.png)  -->
