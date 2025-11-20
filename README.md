@@ -1,10 +1,10 @@
 # *Mini sumô - Sr. Batata*
 
-Este é um template para organização de projetos de robôs *(categoria do robô)*. Use este template como base para organizar seu projeto. Modifique os README para atender aos requisitos.
+Este é um template para organização de projetos de robôs Mini sumô. Use este template como base para organizar seu projeto. Modifique os README para atender aos requisitos.
 
 ## Estrutura do Projeto
 
-Este template fornece uma estrutura organizada para desenvolvimento do robô *(categoria do robô)*, com diretorios específicos para cada aspecto do projeto:
+Este template fornece uma estrutura organizada para desenvolvimento do robô Mini sumô, com diretorios específicos para cada aspecto do projeto:
 
 ## Organização dos Diretórios
 ```
