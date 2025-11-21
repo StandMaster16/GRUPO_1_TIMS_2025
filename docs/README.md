@@ -21,7 +21,7 @@ Na tabela a seguir será possível observar a lista com todos os componentes fí
 |:------------------------------------:	|:-----------------------------------------------------------------------:	|:----------:	|
 |                 Nome                 	|                                Explicação                               	| Quantidade 	|
 |                                      	|                **Baterias e componentes relacionados**                    |            	|
-|               Bateria X            	|                             Bateria do robô                             	|      qtd     	|
+|            microcontrolador:ESP32     	|                             Bateria do robô                             	|      qtd     	|
 |                                      	|                       **Componentes eletrônicos**                       	|            	|
 |              Sensor X             	|                           Sensor para X coisa                          	|      qtd     	|
 |             Componente Y             	|                          Componente para Y coisa                          |      qtd     	|
