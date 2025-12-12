@@ -1,14 +1,19 @@
 # *Mini sumô - Sr. Batata*
 
-Este é um template para organização de projetos de robôs Mini sumô. Use este template como base para organizar seu projeto. Modifique os README para atender aos requisitos.
+Esse é o repositório online do projeto de mini sumô da equipe 1 do torneio interno do Grupo de Estudo Aplicado à Robótica (GEAR) em 2025.
 
-## Estrutura do Projeto
+## Equipe
 
-Este template fornece uma estrutura organizada para desenvolvimento do robô Mini sumô, com diretorios específicos para cada aspecto do projeto:
+- Gestão: Vitória Rodrigues
+- Programação: Gabriel Matos
+- Mecânica: David Praciano
+- Eletrônica: Matheus Eduardo 
+- Veterano: Vinicius 
 
 ## Organização dos Diretórios
 ```
-CATEGORIA_DO_ROBÔ_ANO/
+GRUPO_1_TIMS/
+|
 ├── code/                       # Implementação da programação
 │
 ├── docs/                       # Documentação do código
@@ -17,11 +22,9 @@ CATEGORIA_DO_ROBÔ_ANO/
 │
 ├── mechanics/                  # Mecânica do projeto
 │
-├── misc/                       # Miscelânea
-│
-├── simu/                       # Simulação (OPCIONAL)
-│
 └── README.md --> ESTE ARQUIVO  # Resumo geral dos diretórios
 ```
 
 Cada pasta contém um README interno com instruções específicas de uso, dependências e explicações específicas.
+
+# Por quê "Sr. Batata"?
