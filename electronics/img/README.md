@@ -1,3 +1,5 @@
-# img
+# Diretório de Imagem de Eletrônica
 
-Adicione aqui os arquivos de mídia (.png, .jpg, .gif, etc)
+O diretório está dividido em semanas, com registros visuais
+de cada progresso feito em cada semana, além dos circuitos
+feitos na plataforma CIRKIT IDE
