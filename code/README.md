@@ -1,6 +1,7 @@
 ## Diretório de Programação
 
 Esse diretório está estruturado para um projeto PlatformIO, no entanto, a plataforma utilizada foi o ArduinoIDE
+Por conta disso, somente a pasta `/src` foi modificada propriamente
 
 ## Estrutura de Diretórios
 
