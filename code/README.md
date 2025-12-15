@@ -1,8 +1,6 @@
-# code
+## Diretório de Programação
 
-Este é um template de projeto padrão para desenvolvimento com [PlatformIO](https://platformio.org/). Ele fornece uma estrutura de pastas limpa e organizada, ideal para iniciar seus projetos de sistemas embarcados.
-
-O objetivo deste template é promover as melhores práticas de organização de código, separando a lógica da aplicação, configurações, bibliotecas e testes.
+Esse diretório está estruturado para um projeto PlatformIO, no entanto, a plataforma utilizada foi o ArduinoIDE
 
 ## Estrutura de Diretórios
 
@@ -48,10 +46,3 @@ code/
 
   * `└── platformio.ini`
       * Este é o arquivo de configuração mais importante do projeto. Nele você define a placa-alvo (`board`), o framework (`framework`), as bibliotecas de que o projeto depende (`lib_deps`), as opções de compilação (`build_flags`) e as configurações de upload e monitoramento.
-
-## Como Começar
-
-1.  Clone este repositório para sua máquina local.
-2.  Abra a pasta do projeto com o Visual Studio Code (com a extensão PlatformIO instalada).
-3.  Modifique o arquivo `platformio.ini` para configurar a sua placa e as bibliotecas necessárias.
-4.  Comece a desenvolver o código principal no diretório `src/`.
